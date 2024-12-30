@@ -257,12 +257,6 @@ textarea {
 }
 
 /* Responsive */
-@media (hover: none) {
-  .navbar-toggler:focus {
-    outline: none;
-    box-shadow: none;
-  }
-}
 
 /* Desktop dan Laptop */
 @media (min-width: 769px) and (max-width: 992px){
