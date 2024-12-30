@@ -1,0 +1,76 @@
+/* Reset default margin dan padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Tampilan body dan font dasar */
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Container untuk membungkus konten */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Styling header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+  }
+  
+  /* Styling main content */
+  main {
+    padding: 40px 0;
+  }
+  
+  /* Section styling */
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling list untuk teknologi */
+  ul {
+    list-style-type: none;
+  }
+  
+  ul li {
+    font-size: 1.2em;
+    padding: 5px 0;
+  }
+  
+  /* Styling footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    font-size: 1em;
+  }
+  

@@ -1,0 +1,350 @@
+*,
+html {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", serif;
+  scroll-behavior: smooth;
+}
+/* Parallax Effect */
+.parallax {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Warna teks navbar */
+.navbar .nav-link {
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #007bff; /* Warna biru saat hover */
+}
+
+/* Hero Section */
+.hero {
+  background-image: url(../asset/images/bg.jpg);
+  height: 100vh;
+}
+.hero-line {
+  display: block;
+}
+.profesi {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.3rem;
+}
+.hero-main a {
+  margin-top: 5rem;
+  display: inline-block;
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.hero-main a:hover {
+  color: #007bff;
+  transform: translateY(10px); /* Panah bergerak ke bawah saat di-hover */
+}
+.hero-main i {
+  font-size: 50px;
+}
+
+.navbar.scrolled {
+  background-color: rgba(0, 0, 0, 1); /* Hitam solid */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+} */
+
+.navbar a.nav-link {
+  color: white;
+  transition: color 0.3s;
+}
+
+.navbar.scrolled a.nav-link {
+  color: #f8f9fa; /* Warna teks untuk navbar hitam */
+}
+.navbar.scrolled a.nav-link:hover {
+  color: #57595a; /* Warna teks untuk navbar hitam */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 16 16'%3E%3Cpath d='M1 3h14v1H1zM1 8h14v1H1zM1 13h14v1H1z'/%3E%3C/svg%3E");
+  border: none;
+}
+
+/* Sections */
+.content-section {
+  padding: 60px 15px;
+  background-color: #f8f9fa;
+}
+
+.about-main p {
+  width: 60%;
+  margin: auto;
+  font-family: "Roboto Slab", serif;
+  line-height: 1.6;
+}
+.about-main h2, .porto-main h2 {
+  font-size: 2rem;
+}
+.about-foto {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.about-foto img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.skills {
+  margin: 3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.skills img {
+  width: 70px;
+}
+.about-hobi {
+  margin: 20px auto;
+  padding: 20px;
+  width: 50%;
+  background-color: #f0f0f0;
+}
+.about-hobi h3 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+.about-hobi img{
+  width: 100px;
+}
+.img-hobi {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Styling untuk Section */
+.contact-section {
+  background-color: #f8f9fa; /* Warna abu-abu terang */
+  padding: 50px 0;
+  position: relative;
+}
+
+/* Kontainer */
+.contact-main {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Card Kontak */
+.contact-card {
+  background: #ffffff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  position: relative;
+}
+
+/* Ikon Email */
+.contact-icon {
+  width: 80px;
+  height: 80px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin: -40px auto 20px;
+}
+.contact-icon i {
+  font-size: 2rem;
+}
+
+/* Judul Form */
+.contact-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+/* Form */
+.contact-form {
+  margin-top: 20px;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.form-row input {
+  flex: 1;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  resize: none;
+  margin-bottom: 15px;
+}
+
+/* Tombol Kirim */
+.btn-submit {
+  background-color: #383838;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: #000000;
+}
+
+.footer {
+  background-color: #2c2c2c;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+.footer .social-icons a {
+  padding: 10px;
+  background-color: #57595a;
+  color: white;
+  font-size: 1.5rem;
+  margin: 0 10px;
+}
+
+.footer .social-icons .ig:hover {
+  background-color: rgb(231, 33, 66);
+}
+.social-icons .github:hover {
+  background-color: blue;
+}
+.footer .rocket img{
+ width: 50px;
+}
+
+/* Responsive */
+@media (hover: none) {
+  .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+/* Desktop dan Laptop */
+@media (min-width: 769px) and (max-width: 992px){
+  .navbar {
+    background-color: rgba(0, 0, 0, 0); /* Transparan */
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+
+  .navbar.scrolled {
+    background-color: rgba(0, 0, 0, 1); /* Hitam solid */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  .hero-line {
+    display: inline; /* Gabungkan kembali dalam satu baris */
+  }
+  .about-main p {
+    width: 90%;
+  }
+}
+
+/* Tablet */
+@media (min-width: 577px) and (max-width: 768px) {
+  .navbar {
+    background-color: rgba(0, 0, 0, 1);
+    /*Hitamsolid*/
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  .hero-line {
+    font-size: 3rem;
+  }
+  .about-main p {
+    width: 90%;
+  }
+  .profesi {
+    font-size: 1rem;
+  }
+  .skills img {
+    width: 50px;
+  }
+}
+
+/* Handphone */
+@media (max-width: 576px) {
+  .navbar {
+    background-color: rgba(0, 0, 0, 1);
+    /*Hitamsolid*/
+    transition: background-color 0.3s, box-shadow 0.3s;
+    -webkit-transition: background-color 0.3s, box-shadow 0.3s;
+    -moz-transition: background-color 0.3s, box-shadow 0.3s;
+    -ms-transition: background-color 0.3s, box-shadow 0.3s;
+    -o-transition: background-color 0.3s, box-shadow 0.3s;
+  }
+
+  .navbar-collapse {
+    text-align: center;
+  }
+  .hero-main i {
+    font-size: 3.5rem;
+  }
+  .profesi {
+    font-size: .9rem;
+  }
+  .about-main h2 {
+    font-size: 1.7rem;
+  }
+  .about-main p {
+    width: 95%;
+  }
+  .about-hobi {
+    width: 95%;
+  }
+  .about-hobi h3 {
+    font-size: 1.5rem;
+  }
+  .about-hobi img {
+    width: 50px;
+  }
+  .about-foto {
+    width: 150px;
+    height: 150px;
+  }
+  .skills img {
+    width: 40px;
+  }
+}
