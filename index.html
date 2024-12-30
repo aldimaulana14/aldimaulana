@@ -25,7 +25,7 @@
           <div class="navbar-nav ms-auto gap-4">
             <a class="nav-link" href="#home">HOME</a>
             <a class="nav-link" href="#about">ABOUT</a>
-            <a class="nav-link" href="#portofolio">PORTOFOLIO</a>
+            <a class="nav-link" href="#projects">PORTOFOLIO</a>
             <a class="nav-link" href="#contact">CONTACT</a>
           </div>
         </div>
@@ -52,7 +52,8 @@
         <div class="container text-center pt-5">
           <div class="row justify-content-center">
             <div class="about-main col-12">
-              <h2 class="lead">SEDIKIT TENTANG SAYA</h2>
+              <h2 class="lead">ABOUT ME</h2>
+              <span class="line"></span>
               <div class="about-foto">
                 <img src="asset/images/foto-profil.png" alt="Aldi Maulana" />
               </div>
@@ -86,19 +87,68 @@
       <!-- Awal About -->
 
       <!-- Awal Portofolio -->
+      <section id="projects" style="background-color: #f8f9fa; padding: 100px 0">
+        <h2 class="porto lead" style="text-align: center">PORTOFOLIO</h2>
+        <span class="line"></span>
+        <div class="projek">
+          <div class="thumbnail">
+            <img
+              src="asset/images/p1.png"
+              alt="Project 1"
+              data-full="asset/images/p1.png"
+              data-description="Landing page Maulana Finance adalah sebuah website untuk menampilkan layanan dan promo dari perusahaan. Projek ini dibuat menggunakan HTML dan CSS"
+            />
+          </div>
+          <div class="thumbnail">
+            <img
+              src="asset/images/p2.png"
+              alt="Project 2"
+              data-full="asset/images/p2.png"
+              data-description="Projek sederhana untuk menampilkan foto yang ketika di klik akan tampil foto fullnya. Projek ini dibuat menggunakan HTML, CSS dan Javascript."
+            />
+          </div>
+          <div class="thumbnail">
+            <img
+              src="asset/images/p3.png"
+              alt="Project 3"
+              data-full="asset/images/p3.png"
+              data-description="Landing page Go2Bali merupakan sebuah website untuk menampilkan semua tempat wisata yang ada di Bali. Projek ini saya buat menggunakan HTML dan CSS."
+            />
+          </div>
+          <div class="thumbnail">
+            <img
+              src="asset/images/p4.png"
+              alt="Project 4"
+              data-full="asset/images/p4.png"
+              data-description="Landing page Best Hotel merupakan sebuah website yang menampilkan gallery dan video. Projek ini dibuat menggunakan HTML, CSS dan Bootstrap."
+            />
+          </div>
+        </div>
+      </section>
 
+      <!-- Modal -->
+      <div id="modal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <img id="modal-image" src="" alt="Full Image" />
+          <h5 id="tittle-projek"></h5>
+          <p id="modal-description"></p>
+        </div>
+      </div>
       <!-- Akhir Porto -->
 
       <!-- Contact Section -->
-      <section id="contact" class="contact-section">
-        <div class="contact-main container">
+      <section id="contact" class="contact-section" style="padding: 100px 0">
+        <h2 class="kontak lead" style="text-align: center">CONTACT</h2>
+        <span class="line"></span>
+        <div class="contact-main container mt-5">
           <div class="contact-card">
             <!-- Ikon di atas form -->
             <div class="contact-icon">
               <i class="bi bi-envelope-open-fill"></i>
             </div>
             <!-- Judul Form -->
-            <h3 class="contact-title">Drop Us A Message</h3>
+            <h3 class="contact-title">Kirim Pesan</h3>
             <!-- Form -->
             <form action="https://formspree.io/f/xjkkrljn" method="post" class="contact-form">
               <div class="form-row">
