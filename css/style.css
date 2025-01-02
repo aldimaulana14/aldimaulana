@@ -13,14 +13,14 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* Warna teks navbar */
+
 .navbar .nav-link {
   color: #ffffff;
   transition: color 0.3s ease;
 }
 
 .navbar .nav-link:hover {
-  color: #007bff; /* Warna biru saat hover */
+  color: #007bff; 
 }
 
 /* Hero Section */
@@ -45,14 +45,14 @@ html {
 }
 .hero-main a:hover {
   color: #007bff;
-  transform: translateY(10px); /* Panah bergerak ke bawah saat di-hover */
+  transform: translateY(10px); 
 }
 .hero-main i {
   font-size: 50px;
 }
 
 .navbar.scrolled {
-  background-color: rgba(0, 0, 0, 1); /* Hitam solid */
+  background-color: rgba(0, 0, 0, 1); 
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 */ .navbar a.nav-link {
@@ -61,10 +61,10 @@ html {
 }
 
 .navbar.scrolled a.nav-link {
-  color: #f8f9fa; /* Warna teks untuk navbar hitam */
+  color: #f8f9fa; 
 }
 .navbar.scrolled a.nav-link:hover {
-  color: #57595a; /* Warna teks untuk navbar hitam */
+  color: #57595a; 
 }
 
 .navbar-toggler-icon {
@@ -97,13 +97,13 @@ html {
   display: block;
   width: 50px;
   height: 1px;
-  background-color: #000000; /* Warna garis biru */
-  margin: 0 auto; /* Menyusun garis di tengah */
-  transition: width 0.3s ease; /* Animasi lebar garis */
+  background-color: #000000; 
+  margin: 0 auto; 
+  transition: width 0.3s ease; 
 }
 
 h2.lead:hover + .line {
-  width: 200px; /* Membuat garis lebih lebar saat hover */
+  width: 200px;
 }
 .about-foto {
   width: 180px;
@@ -158,7 +158,7 @@ h2.lead:hover + .line {
 
 /* Styling untuk Section */
 .contact-section {
-  background-color: #f5f5f5; /* Warna abu-abu terang */
+  background-color: #f5f5f5; 
   padding: 50px 0;
   position: relative;
 }
@@ -261,6 +261,11 @@ textarea {
   color: white;
   font-size: 1.5rem;
   margin: 0 10px;
+  transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -ms-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
 }
 
 .footer .social-icons .ig:hover {
@@ -359,36 +364,36 @@ textarea {
 
 .thumbnail .detail-text {
   position: absolute;
-  bottom: 10px; /* Jarak 10px dari bagian bawah */
+  bottom: 10px; 
   left: 50%;
-  transform: translateX(-50%); /* Menyelaraskan secara horizontal ke tengah */
+  transform: translateX(-50%); 
   font-size: 1.2rem;
   font-weight: bold;
   color: white;
-  background-color: blue; /* Latar belakang semi-transparan */
+  background-color: blue; 
   padding: 5px 10px;
-  opacity: 0; /* Teks disembunyikan secara default */
-  transition: opacity 0.3s; /* Transisi yang halus */
+  opacity: 0; 
+  transition: opacity 0.3s; 
 }
 
 .thumbnail:hover .detail-text {
-  opacity: 1; /* Tampilkan teks saat hover */
+  opacity: 1; 
 }
 /* Responsive */
 
 /* Desktop dan Laptop */
 @media (min-width: 769px) and (max-width: 992px) {
   .navbar {
-    background-color: rgba(0, 0, 0, 0); /* Transparan */
+    background-color: rgba(0, 0, 0, 0); 
     transition: background-color 0.3s, box-shadow 0.3s;
   }
 
   .navbar.scrolled {
-    background-color: rgba(0, 0, 0, 1); /* Hitam solid */
+    background-color: rgba(0, 0, 0, 1);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   }
   .hero-line {
-    display: inline; /* Gabungkan kembali dalam satu baris */
+    display: inline; 
   }
   .about-main p {
     width: 90%;
@@ -399,7 +404,6 @@ textarea {
 @media (min-width: 577px) and (max-width: 768px) {
   .navbar {
     background-color: rgba(0, 0, 0, 1);
-    /*Hitamsolid*/
     transition: background-color 0.3s, box-shadow 0.3s;
   }
   .hero-line {
@@ -427,7 +431,6 @@ textarea {
     -ms-transition: background-color 0.3s, box-shadow 0.3s;
     -o-transition: background-color 0.3s, box-shadow 0.3s;
   }
-
   .navbar-collapse {
     text-align: center;
   }
